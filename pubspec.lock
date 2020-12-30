@@ -65,10 +65,12 @@ packages:
   flutter_markdown:
     dependency: "direct main"
     description:
-      name: flutter_markdown
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.5.0"
+      path: "."
+      ref: HEAD
+      resolved-ref: "2fd0c4a78f805db37cf7dbf0380b3e338b90acdf"
+      url: "https://github.com/apptreesoftware/flutter_markdown.git"
+    source: git
+    version: "0.5.1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -86,12 +88,21 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "7.1.1"
+  js:
+    dependency: transitive
+    description:
+      name: js
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.6.3-nullsafety.1"
   markdown:
     dependency: "direct main"
     description:
-      name: markdown
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "692e7ad6a966f32173a96ffde799d2b8a8a30f41"
+      url: "https://github.com/apptreesoftware/markdown.git"
+    source: git
     version: "3.0.0"
   matcher:
     dependency: transitive
@@ -106,7 +117,7 @@ packages:
       name: meta
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.3.0-nullsafety.3"
+    version: "1.3.0-nullsafety.4"
   path:
     dependency: transitive
     description:
@@ -139,7 +150,7 @@ packages:
       name: stack_trace
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.10.0-nullsafety.1"
+    version: "1.10.0-nullsafety.2"
   stream_channel:
     dependency: transitive
     description:
@@ -225,5 +236,5 @@ packages:
     source: hosted
     version: "2.1.0-nullsafety.3"
 sdks:
-  dart: ">=2.10.0-110 <2.11.0"
+  dart: ">=2.10.0-110 <=2.11.0-213.1.beta"
   flutter: ">=1.17.0 <2.0.0"
